@@ -1,0 +1,30 @@
+[2024-12-05T00:44:32.577+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T00:44:32.641+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl_dag_gcp.create_bucket manual__2024-12-05T00:43:01.054451+00:00 [queued]>
+[2024-12-05T00:44:32.670+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl_dag_gcp.create_bucket manual__2024-12-05T00:43:01.054451+00:00 [queued]>
+[2024-12-05T00:44:32.670+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-12-05T00:44:32.723+0000] {taskinstance.py:2888} INFO - Executing <Task(GCSCreateBucketOperator): create_bucket> on 2024-12-05 00:43:01.054451+00:00
+[2024-12-05T00:44:32.767+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl_dag_gcp', 'create_bucket', 'manual__2024-12-05T00:43:01.054451+00:00', '--job-id', '516', '--raw', '--subdir', 'DAGS_FOLDER/spotify_***_gcp.py', '--cfg-path', '/tmp/tmpu4zne4ji']
+[2024-12-05T00:44:32.769+0000] {standard_task_runner.py:105} INFO - Job 516: Subtask create_bucket
+[2024-12-05T00:44:32.763+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=46572) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T00:44:32.773+0000] {standard_task_runner.py:72} INFO - Started process 46588 to run task
+[2024-12-05T00:44:32.909+0000] {task_command.py:467} INFO - Running <TaskInstance: spotify_etl_dag_gcp.create_bucket manual__2024-12-05T00:43:01.054451+00:00 [running]> on host da4c4a711107
+[2024-12-05T00:44:36.730+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Artika' AIRFLOW_CTX_DAG_ID='spotify_etl_dag_gcp' AIRFLOW_CTX_TASK_ID='create_bucket' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T00:43:01.054451+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T00:43:01.054451+00:00'
+[2024-12-05T00:44:36.735+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-05T00:44:36.738+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-05T00:44:36.742+0000] {logging_mixin.py:190} INFO - Current task name:create_bucket state:running start_date:2024-12-05 00:44:32.642245+00:00
+[2024-12-05T00:44:36.743+0000] {logging_mixin.py:190} INFO - Dag name:spotify_etl_dag_gcp and current dag run status:running
+[2024-12-05T00:44:36.743+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T00:44:36.768+0000] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-12-05T00:44:36.781+0000] {base.py:84} INFO - Retrieving connection 'gcp_conn_id'
+[2024-12-05T00:44:36.968+0000] {gcs.py:1080} INFO - Creating Bucket: spotify-songs-album-artists-pipeline; Location: US; Storage Class: MULTI_REGIONAL
+[2024-12-05T00:44:38.644+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-05T00:44:38.661+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=spotify_etl_dag_gcp, task_id=create_bucket, run_id=manual__2024-12-05T00:43:01.054451+00:00, execution_date=20241205T004301, start_date=20241205T004432, end_date=20241205T004438
+[2024-12-05T00:44:38.716+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-05T00:44:38.720+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-05T00:44:38.724+0000] {logging_mixin.py:190} INFO - Dag name:spotify_etl_dag_gcp queued_at:2024-12-05 00:43:13.296093+00:00
+[2024-12-05T00:44:38.725+0000] {logging_mixin.py:190} INFO - Task hostname:da4c4a711107 operator:GCSCreateBucketOperator
+[2024-12-05T00:44:38.804+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-05T00:44:39.056+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T00:44:39.071+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

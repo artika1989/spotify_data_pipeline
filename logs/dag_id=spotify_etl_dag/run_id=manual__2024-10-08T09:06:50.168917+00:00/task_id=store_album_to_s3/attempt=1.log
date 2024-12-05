@@ -1,0 +1,30 @@
+[2024-10-08T09:07:20.352+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-08T09:07:20.394+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl_dag.store_album_to_s3 manual__2024-10-08T09:06:50.168917+00:00 [queued]>
+[2024-10-08T09:07:20.407+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl_dag.store_album_to_s3 manual__2024-10-08T09:06:50.168917+00:00 [queued]>
+[2024-10-08T09:07:20.408+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-08T09:07:20.427+0000] {taskinstance.py:2888} INFO - Executing <Task(S3CreateObjectOperator): store_album_to_s3> on 2024-10-08 09:06:50.168917+00:00
+[2024-10-08T09:07:20.443+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=867) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-08T09:07:20.458+0000] {standard_task_runner.py:72} INFO - Started process 875 to run task
+[2024-10-08T09:07:20.469+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl_dag', 'store_album_to_s3', 'manual__2024-10-08T09:06:50.168917+00:00', '--job-id', '444', '--raw', '--subdir', 'DAGS_FOLDER/spotify_***_pipeline.py', '--cfg-path', '/tmp/tmpophf9jcj']
+[2024-10-08T09:07:20.472+0000] {standard_task_runner.py:105} INFO - Job 444: Subtask store_album_to_s3
+[2024-10-08T09:07:20.600+0000] {task_command.py:467} INFO - Running <TaskInstance: spotify_etl_dag.store_album_to_s3 manual__2024-10-08T09:06:50.168917+00:00 [running]> on host da4c4a711107
+[2024-10-08T09:07:21.254+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Artika' AIRFLOW_CTX_DAG_ID='spotify_etl_dag' AIRFLOW_CTX_TASK_ID='store_album_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-10-08T09:06:50.168917+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-08T09:06:50.168917+00:00'
+[2024-10-08T09:07:21.266+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-08T09:07:21.267+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-08T09:07:21.268+0000] {logging_mixin.py:190} INFO - Current task name:store_album_to_s3 state:running start_date:2024-10-08 09:07:20.395622+00:00
+[2024-10-08T09:07:21.269+0000] {logging_mixin.py:190} INFO - Dag name:spotify_etl_dag and current dag run status:running
+[2024-10-08T09:07:21.270+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-08T09:07:21.360+0000] {base.py:84} INFO - Retrieving connection 'aws_s3_bucket'
+[2024-10-08T09:07:21.366+0000] {connection_wrapper.py:388} INFO - AWS Connection (conn_id='aws_s3_bucket', conn_type='aws') credentials retrieved from login and password.
+[2024-10-08T09:07:41.709+0000] {job.py:229} INFO - Heartbeat recovered after 12.78 seconds
+[2024-10-08T09:07:57.819+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-08T09:07:57.846+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=spotify_etl_dag, task_id=store_album_to_s3, run_id=manual__2024-10-08T09:06:50.168917+00:00, execution_date=20241008T090650, start_date=20241008T090720, end_date=20241008T090757
+[2024-10-08T09:07:58.030+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-08T09:07:58.037+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-08T09:07:58.039+0000] {logging_mixin.py:190} INFO - Dag name:spotify_etl_dag queued_at:2024-10-08 09:06:50.226801+00:00
+[2024-10-08T09:07:58.040+0000] {logging_mixin.py:190} INFO - Task hostname:da4c4a711107 operator:S3CreateObjectOperator
+[2024-10-08T09:07:58.001+0000] {job.py:229} INFO - Heartbeat recovered after 16.34 seconds
+[2024-10-08T09:07:58.223+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-08T09:07:58.303+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

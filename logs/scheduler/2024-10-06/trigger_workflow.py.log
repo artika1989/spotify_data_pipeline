@@ -1,0 +1,273 @@
+[2024-10-06T00:50:45.981+0000] {processor.py:186} INFO - Started process (PID=24073) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T00:50:46.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T00:50:46.004+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.004+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T00:50:46.038+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T00:50:46.187+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.187+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T00:50:46.217+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.216+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T00:50:46.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.267 seconds
+[2024-10-06T00:51:16.932+0000] {processor.py:186} INFO - Started process (PID=24143) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T00:51:16.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T00:51:16.938+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:16.937+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T00:51:16.958+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T00:51:17.007+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.007+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T00:51:17.034+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.034+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T00:51:17.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.169 seconds
+[2024-10-06T01:51:41.048+0000] {processor.py:186} INFO - Started process (PID=24212) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T01:51:41.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T01:51:41.051+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.051+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T01:51:41.071+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T01:51:41.109+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.108+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T01:51:41.150+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.150+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T01:51:41.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.121 seconds
+[2024-10-06T02:42:31.037+0000] {processor.py:186} INFO - Started process (PID=24281) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T02:42:31.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T02:42:31.040+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.040+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T02:42:31.061+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T02:42:31.106+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.105+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T02:42:31.136+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.136+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T02:42:31.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.126 seconds
+[2024-10-06T03:10:34.624+0000] {processor.py:186} INFO - Started process (PID=24351) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T03:10:34.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T03:10:34.628+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:34.627+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T03:10:34.691+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T03:10:34.776+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:34.775+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T03:10:34.825+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:34.825+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T03:10:34.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.259 seconds
+[2024-10-06T03:53:51.731+0000] {processor.py:186} INFO - Started process (PID=24421) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T03:53:51.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T03:53:51.735+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:51.734+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T03:53:51.760+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T03:53:51.814+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:51.814+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T03:53:51.838+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:51.837+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T03:53:51.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.137 seconds
+[2024-10-06T04:44:14.621+0000] {processor.py:186} INFO - Started process (PID=24491) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T04:44:14.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T04:44:14.624+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.624+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T04:44:14.642+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T04:44:14.699+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.699+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T04:44:14.731+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.731+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T04:44:14.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.131 seconds
+[2024-10-06T05:45:09.543+0000] {processor.py:186} INFO - Started process (PID=24561) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T05:45:09.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T05:45:09.548+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.548+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T05:45:09.570+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T05:45:09.616+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.616+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T05:45:09.654+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.654+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T05:45:09.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.136 seconds
+[2024-10-06T06:27:10.176+0000] {processor.py:186} INFO - Started process (PID=24631) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T06:27:10.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T06:27:10.179+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.178+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T06:27:10.206+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T06:27:10.254+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.254+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T06:27:10.279+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.278+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T06:27:10.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.130 seconds
+[2024-10-06T06:56:38.875+0000] {processor.py:186} INFO - Started process (PID=24701) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T06:56:38.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T06:56:38.879+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:38.879+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T06:56:38.912+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T06:56:38.949+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:38.949+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T06:56:38.990+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:38.990+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T06:56:39.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.136 seconds
+[2024-10-06T07:29:02.249+0000] {processor.py:186} INFO - Started process (PID=24771) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T07:29:02.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T07:29:02.259+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.258+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T07:29:02.276+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T07:29:02.312+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.312+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T07:29:02.342+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.342+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T07:29:02.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.129 seconds
+[2024-10-06T07:57:56.699+0000] {processor.py:186} INFO - Started process (PID=24841) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T07:57:56.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T07:57:56.703+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.703+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T07:57:56.721+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T07:57:56.769+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.769+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T07:57:56.794+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.794+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T07:57:56.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.127 seconds
+[2024-10-06T08:02:58.557+0000] {processor.py:186} INFO - Started process (PID=24911) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T08:02:58.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T08:02:58.563+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.562+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T08:02:58.592+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T08:02:58.640+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.640+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T08:02:58.675+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.675+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T08:02:58.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.167 seconds
+[2024-10-06T08:03:29.342+0000] {processor.py:186} INFO - Started process (PID=24981) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T08:03:29.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T08:03:29.350+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.348+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T08:03:29.375+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T08:03:29.434+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.434+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T08:03:29.474+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.474+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T08:03:29.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.171 seconds
+[2024-10-06T09:43:47.495+0000] {processor.py:186} INFO - Started process (PID=25051) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T09:43:47.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T09:43:47.498+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.497+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T09:43:47.528+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T09:43:47.569+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.569+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T09:43:47.603+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.603+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T09:43:47.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.133 seconds
+[2024-10-06T10:16:41.015+0000] {processor.py:186} INFO - Started process (PID=25120) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T10:16:41.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T10:16:41.019+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.019+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T10:16:41.052+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T10:16:41.099+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.099+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T10:16:41.130+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.130+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T10:16:41.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.135 seconds
+[2024-10-06T11:20:54.082+0000] {processor.py:186} INFO - Started process (PID=25190) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T11:20:54.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T11:20:54.090+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.090+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T11:20:54.107+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T11:20:54.144+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.144+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T11:20:54.178+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.178+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T11:20:54.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.129 seconds
+[2024-10-06T13:00:03.480+0000] {processor.py:186} INFO - Started process (PID=25260) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:00:03.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T13:00:03.489+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.488+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:00:03.505+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:00:03.552+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.552+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:00:03.585+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.585+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T13:00:03.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.133 seconds
+[2024-10-06T13:48:15.000+0000] {processor.py:186} INFO - Started process (PID=25330) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:48:15.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T13:48:15.003+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.002+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:48:15.028+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:48:15.068+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.067+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:48:15.094+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.094+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T13:48:15.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.125 seconds
+[2024-10-06T13:55:49.128+0000] {processor.py:186} INFO - Started process (PID=25400) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:55:49.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T13:55:49.136+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.135+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:55:49.168+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T13:55:49.213+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.212+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:55:49.248+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.248+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T13:55:49.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.142 seconds
+[2024-10-06T14:56:48.151+0000] {processor.py:186} INFO - Started process (PID=25470) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T14:56:48.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T14:56:48.157+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.157+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T14:56:48.185+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T14:56:48.229+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.229+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T14:56:48.256+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.256+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T14:56:48.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.126 seconds
+[2024-10-06T15:41:26.888+0000] {processor.py:186} INFO - Started process (PID=25540) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T15:41:26.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T15:41:26.893+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:26.893+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T15:41:26.940+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T15:41:26.978+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:26.978+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T15:41:27.003+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.003+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T15:41:27.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.145 seconds
+[2024-10-06T16:15:53.559+0000] {processor.py:186} INFO - Started process (PID=25610) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:15:53.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T16:15:53.566+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.565+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:15:53.600+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:15:53.634+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.634+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:15:53.669+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.669+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T16:15:53.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.136 seconds
+[2024-10-06T16:58:34.380+0000] {processor.py:186} INFO - Started process (PID=25680) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:58:34.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T16:58:34.384+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.384+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:58:34.411+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:58:34.441+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.441+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:58:34.478+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.478+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T16:58:34.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.126 seconds
+[2024-10-06T16:59:05.306+0000] {processor.py:186} INFO - Started process (PID=25750) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:59:05.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T16:59:05.312+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.311+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:59:05.343+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T16:59:05.400+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.400+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:59:05.434+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.433+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T16:59:05.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.180 seconds
+[2024-10-06T17:59:31.535+0000] {processor.py:186} INFO - Started process (PID=25819) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T17:59:31.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T17:59:31.540+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.539+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T17:59:31.568+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T17:59:31.614+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.614+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T17:59:31.649+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.649+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T17:59:31.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.136 seconds
+[2024-10-06T18:16:59.337+0000] {processor.py:186} INFO - Started process (PID=25889) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T18:16:59.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T18:16:59.341+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.341+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T18:16:59.360+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T18:16:59.414+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.413+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T18:16:59.457+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.457+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T18:16:59.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.140 seconds
+[2024-10-06T18:49:48.748+0000] {processor.py:186} INFO - Started process (PID=25959) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T18:49:48.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T18:49:48.752+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:48.752+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T18:49:48.770+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T18:49:48.816+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:48.816+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T18:49:48.849+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:48.849+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T18:49:48.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.120 seconds
+[2024-10-06T19:00:32.459+0000] {processor.py:186} INFO - Started process (PID=26029) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T19:00:32.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T19:00:32.467+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.466+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T19:00:32.500+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T19:00:32.551+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.551+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T19:00:32.577+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.577+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T19:00:32.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.147 seconds
+[2024-10-06T19:16:44.196+0000] {processor.py:186} INFO - Started process (PID=26099) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T19:16:44.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T19:16:44.202+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.202+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T19:16:44.222+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T19:16:44.270+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.270+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T19:16:44.305+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.305+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T19:16:44.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.135 seconds
+[2024-10-06T20:01:49.400+0000] {processor.py:186} INFO - Started process (PID=26169) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:01:49.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T20:01:49.407+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.406+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:01:49.438+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:01:49.488+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.488+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:01:49.527+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.526+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T20:01:49.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.157 seconds
+[2024-10-06T20:17:58.515+0000] {processor.py:186} INFO - Started process (PID=26239) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:17:58.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T20:17:58.522+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.521+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:17:58.538+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:17:58.592+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.592+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:17:58.628+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.628+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T20:17:58.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.143 seconds
+[2024-10-06T20:51:48.139+0000] {processor.py:186} INFO - Started process (PID=26308) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:51:48.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T20:51:48.147+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.146+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:51:48.176+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:51:48.230+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.230+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:51:48.254+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.253+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T20:51:48.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.163 seconds
+[2024-10-06T20:52:18.721+0000] {processor.py:186} INFO - Started process (PID=26379) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:52:18.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T20:52:18.726+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:18.725+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:52:18.750+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T20:52:18.807+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:18.807+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:52:18.853+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:18.853+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T20:52:18.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.173 seconds
+[2024-10-06T21:19:18.437+0000] {processor.py:186} INFO - Started process (PID=26449) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T21:19:18.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T21:19:18.673+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:18.612+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T21:19:18.753+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T21:19:18.852+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:18.851+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T21:19:18.900+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:18.899+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T21:19:18.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.502 seconds
+[2024-10-06T21:52:06.981+0000] {processor.py:186} INFO - Started process (PID=26519) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T21:52:06.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T21:52:06.986+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:06.986+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T21:52:07.005+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T21:52:07.047+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.046+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T21:52:07.083+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.083+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T21:52:07.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.134 seconds
+[2024-10-06T22:53:02.222+0000] {processor.py:186} INFO - Started process (PID=26589) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T22:53:02.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T22:53:02.226+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.226+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T22:53:02.248+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T22:53:02.286+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.286+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T22:53:02.310+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.310+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T22:53:02.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.130 seconds
+[2024-10-06T23:21:09.822+0000] {processor.py:186} INFO - Started process (PID=26659) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T23:21:09.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T23:21:09.826+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:09.826+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T23:21:09.857+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T23:21:09.922+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:09.922+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T23:21:09.957+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:09.957+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T23:21:09.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.170 seconds
+[2024-10-06T23:39:11.207+0000] {processor.py:186} INFO - Started process (PID=26729) to work on /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T23:39:11.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trigger_workflow.py for tasks to queue
+[2024-10-06T23:39:11.211+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T23:39:11.236+0000] {processor.py:925} INFO - DAG(s) 'trigger_workflow' retrieved from /opt/airflow/dags/trigger_workflow.py
+[2024-10-06T23:39:11.282+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.282+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T23:39:11.308+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.308+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_workflow to 2024-10-03 16:00:00+00:00, run_after=2024-10-04 16:00:00+00:00
+[2024-10-06T23:39:11.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trigger_workflow.py took 0.129 seconds

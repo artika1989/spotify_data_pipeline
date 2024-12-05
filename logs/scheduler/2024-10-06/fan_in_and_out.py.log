@@ -1,0 +1,273 @@
+[2024-10-06T00:50:46.261+0000] {processor.py:186} INFO - Started process (PID=24074) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T00:50:46.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T00:50:46.262+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.262+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T00:50:46.271+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T00:50:46.354+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.354+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T00:50:46.372+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.372+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T00:50:46.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.126 seconds
+[2024-10-06T00:51:17.074+0000] {processor.py:186} INFO - Started process (PID=24144) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T00:51:17.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T00:51:17.076+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.075+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T00:51:17.083+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T00:51:17.097+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.097+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T00:51:17.112+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.112+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T00:51:17.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.061 seconds
+[2024-10-06T01:51:41.187+0000] {processor.py:186} INFO - Started process (PID=24213) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T01:51:41.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T01:51:41.189+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.189+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T01:51:41.196+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T01:51:41.211+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.211+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T01:51:41.226+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.226+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T01:51:41.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.074 seconds
+[2024-10-06T02:42:31.177+0000] {processor.py:186} INFO - Started process (PID=24282) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T02:42:31.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T02:42:31.179+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.179+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T02:42:31.187+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T02:42:31.207+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.207+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T02:42:31.228+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.228+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T02:42:31.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.076 seconds
+[2024-10-06T03:10:34.924+0000] {processor.py:186} INFO - Started process (PID=24352) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T03:10:34.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T03:10:34.927+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:34.927+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T03:10:34.939+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T03:10:34.980+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:34.979+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T03:10:35.006+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:35.006+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T03:10:35.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.110 seconds
+[2024-10-06T03:53:51.897+0000] {processor.py:186} INFO - Started process (PID=24422) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T03:53:51.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T03:53:51.899+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:51.899+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T03:53:51.906+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T03:53:51.919+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:51.919+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T03:53:51.931+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:51.931+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T03:53:51.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.052 seconds
+[2024-10-06T04:44:14.761+0000] {processor.py:186} INFO - Started process (PID=24492) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T04:44:14.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T04:44:14.763+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.763+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T04:44:14.776+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T04:44:14.791+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.790+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T04:44:14.823+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.823+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T04:44:14.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.086 seconds
+[2024-10-06T05:45:09.689+0000] {processor.py:186} INFO - Started process (PID=24562) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T05:45:09.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T05:45:09.691+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.691+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T05:45:09.698+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T05:45:09.721+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.721+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T05:45:09.736+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.736+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T05:45:09.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.064 seconds
+[2024-10-06T06:27:10.326+0000] {processor.py:186} INFO - Started process (PID=24632) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T06:27:10.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T06:27:10.330+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.330+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T06:27:10.338+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T06:27:10.356+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.356+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T06:27:10.374+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.374+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T06:27:10.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.082 seconds
+[2024-10-06T06:56:39.020+0000] {processor.py:186} INFO - Started process (PID=24702) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T06:56:39.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T06:56:39.023+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:39.022+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T06:56:39.029+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T06:56:39.051+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:39.051+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T06:56:39.064+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:39.064+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T06:56:39.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.061 seconds
+[2024-10-06T07:29:02.391+0000] {processor.py:186} INFO - Started process (PID=24772) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T07:29:02.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T07:29:02.393+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.393+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T07:29:02.405+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T07:29:02.425+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.425+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T07:29:02.449+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.449+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T07:29:02.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.082 seconds
+[2024-10-06T07:57:56.838+0000] {processor.py:186} INFO - Started process (PID=24842) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T07:57:56.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T07:57:56.840+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.840+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T07:57:56.846+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T07:57:56.859+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.859+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T07:57:56.873+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.873+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T07:57:56.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.059 seconds
+[2024-10-06T08:02:58.723+0000] {processor.py:186} INFO - Started process (PID=24912) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T08:02:58.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T08:02:58.724+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.724+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T08:02:58.731+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T08:02:58.746+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.746+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T08:02:58.765+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.765+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T08:02:58.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.057 seconds
+[2024-10-06T08:03:29.520+0000] {processor.py:186} INFO - Started process (PID=24982) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T08:03:29.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T08:03:29.522+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.522+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T08:03:29.531+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T08:03:29.556+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.556+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T08:03:29.574+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.574+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T08:03:29.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.081 seconds
+[2024-10-06T09:43:47.650+0000] {processor.py:186} INFO - Started process (PID=25052) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T09:43:47.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T09:43:47.651+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.651+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T09:43:47.658+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T09:43:47.683+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.683+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T09:43:47.699+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.699+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T09:43:47.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.064 seconds
+[2024-10-06T10:16:41.164+0000] {processor.py:186} INFO - Started process (PID=25121) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T10:16:41.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T10:16:41.168+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.168+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T10:16:41.179+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T10:16:41.199+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.198+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T10:16:41.216+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.216+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T10:16:41.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.076 seconds
+[2024-10-06T11:20:54.218+0000] {processor.py:186} INFO - Started process (PID=25191) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T11:20:54.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T11:20:54.219+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.219+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T11:20:54.230+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T11:20:54.256+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.256+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T11:20:54.279+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.278+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T11:20:54.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.082 seconds
+[2024-10-06T13:00:03.651+0000] {processor.py:186} INFO - Started process (PID=25261) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:00:03.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T13:00:03.653+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.653+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:00:03.661+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:00:03.683+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.683+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:00:03.703+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.703+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T13:00:03.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.090 seconds
+[2024-10-06T13:48:15.137+0000] {processor.py:186} INFO - Started process (PID=25331) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:48:15.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T13:48:15.139+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:48:15.148+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:48:15.170+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.170+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:48:15.184+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.184+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T13:48:15.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.062 seconds
+[2024-10-06T13:55:49.303+0000] {processor.py:186} INFO - Started process (PID=25401) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:55:49.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T13:55:49.306+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.306+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:55:49.315+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T13:55:49.339+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.338+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:55:49.354+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.354+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T13:55:49.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.090 seconds
+[2024-10-06T14:56:48.298+0000] {processor.py:186} INFO - Started process (PID=25471) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T14:56:48.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T14:56:48.299+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.299+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T14:56:48.306+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T14:56:48.320+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.320+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T14:56:48.341+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.341+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T14:56:48.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.075 seconds
+[2024-10-06T15:41:27.043+0000] {processor.py:186} INFO - Started process (PID=25541) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T15:41:27.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T15:41:27.044+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.044+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T15:41:27.052+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T15:41:27.066+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.066+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T15:41:27.087+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.087+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T15:41:27.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.069 seconds
+[2024-10-06T16:15:53.699+0000] {processor.py:186} INFO - Started process (PID=25611) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:15:53.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T16:15:53.701+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.701+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:15:53.707+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:15:53.726+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.726+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:15:53.738+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.738+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T16:15:53.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.051 seconds
+[2024-10-06T16:58:34.519+0000] {processor.py:186} INFO - Started process (PID=25681) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:58:34.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T16:58:34.520+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.520+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:58:34.527+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:58:34.548+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.548+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:58:34.569+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.569+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T16:58:34.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.070 seconds
+[2024-10-06T16:59:05.472+0000] {processor.py:186} INFO - Started process (PID=25751) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:59:05.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T16:59:05.474+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.473+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:59:05.484+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T16:59:05.499+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.499+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:59:05.518+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.518+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T16:59:05.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.065 seconds
+[2024-10-06T17:59:31.679+0000] {processor.py:186} INFO - Started process (PID=25820) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T17:59:31.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T17:59:31.681+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.681+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T17:59:31.688+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T17:59:31.701+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.701+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T17:59:31.720+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.720+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T17:59:31.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.060 seconds
+[2024-10-06T18:16:59.490+0000] {processor.py:186} INFO - Started process (PID=25890) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T18:16:59.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T18:16:59.492+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.492+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T18:16:59.500+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T18:16:59.532+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.531+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T18:16:59.551+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.550+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T18:16:59.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.080 seconds
+[2024-10-06T18:49:48.881+0000] {processor.py:186} INFO - Started process (PID=25960) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T18:49:48.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T18:49:48.883+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:48.883+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T18:49:48.889+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T18:49:48.903+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:48.903+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T18:49:48.915+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:48.915+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T18:49:48.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.049 seconds
+[2024-10-06T19:00:32.619+0000] {processor.py:186} INFO - Started process (PID=26030) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T19:00:32.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T19:00:32.621+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.621+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T19:00:32.627+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T19:00:32.643+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.643+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T19:00:32.659+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.659+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T19:00:32.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.057 seconds
+[2024-10-06T19:16:44.333+0000] {processor.py:186} INFO - Started process (PID=26100) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T19:16:44.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T19:16:44.334+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.334+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T19:16:44.341+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T19:16:44.364+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.364+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T19:16:44.382+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.382+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T19:16:44.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.068 seconds
+[2024-10-06T20:01:49.566+0000] {processor.py:186} INFO - Started process (PID=26170) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:01:49.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T20:01:49.571+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.570+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:01:49.589+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:01:49.609+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.609+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:01:49.626+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.625+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T20:01:49.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.079 seconds
+[2024-10-06T20:17:58.669+0000] {processor.py:186} INFO - Started process (PID=26240) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:17:58.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T20:17:58.671+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.670+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:17:58.681+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:17:58.700+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.700+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:17:58.718+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.718+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T20:17:58.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.065 seconds
+[2024-10-06T20:51:48.307+0000] {processor.py:186} INFO - Started process (PID=26309) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:51:48.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T20:51:48.311+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.310+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:51:48.327+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:51:48.353+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.353+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:51:48.392+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.391+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T20:51:48.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.107 seconds
+[2024-10-06T20:52:18.917+0000] {processor.py:186} INFO - Started process (PID=26380) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:52:18.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T20:52:18.920+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:18.919+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:52:18.932+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T20:52:18.964+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:18.964+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:52:19.015+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:19.015+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T20:52:19.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.334 seconds
+[2024-10-06T21:19:18.983+0000] {processor.py:186} INFO - Started process (PID=26450) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T21:19:18.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T21:19:18.986+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:18.985+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T21:19:19.002+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T21:19:19.030+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:19.030+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T21:19:19.054+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:19.053+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T21:19:19.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.117 seconds
+[2024-10-06T21:52:07.128+0000] {processor.py:186} INFO - Started process (PID=26520) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T21:52:07.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T21:52:07.131+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.131+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T21:52:07.139+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T21:52:07.155+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.155+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T21:52:07.169+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.169+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T21:52:07.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.060 seconds
+[2024-10-06T22:53:02.354+0000] {processor.py:186} INFO - Started process (PID=26590) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T22:53:02.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T22:53:02.356+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.356+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T22:53:02.363+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T22:53:02.375+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.375+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T22:53:02.390+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.390+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T22:53:02.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.068 seconds
+[2024-10-06T23:21:10.026+0000] {processor.py:186} INFO - Started process (PID=26660) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T23:21:10.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T23:21:10.028+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:10.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T23:21:10.036+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T23:21:10.069+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:10.068+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T23:21:10.089+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:10.089+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T23:21:10.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.105 seconds
+[2024-10-06T23:39:11.351+0000] {processor.py:186} INFO - Started process (PID=26730) to work on /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T23:39:11.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fan_in_and_out.py for tasks to queue
+[2024-10-06T23:39:11.352+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.352+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T23:39:11.359+0000] {processor.py:925} INFO - DAG(s) 'fan_in_out' retrieved from /opt/airflow/dags/fan_in_and_out.py
+[2024-10-06T23:39:11.373+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.373+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T23:39:11.384+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.384+0000] {dag.py:4156} INFO - Setting next_dagrun for fan_in_out to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-06T23:39:11.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fan_in_and_out.py took 0.055 seconds

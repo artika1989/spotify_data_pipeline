@@ -1,0 +1,787 @@
+[2024-12-04T23:38:24.216+0000] {processor.py:186} INFO - Started process (PID=93161) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:24.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:38:24.240+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:24.239+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:25.334+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:25.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 1.180 seconds
+[2024-12-04T23:38:26.486+0000] {processor.py:186} INFO - Started process (PID=93169) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:26.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:38:26.487+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:26.487+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:27.185+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:27.179+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 59, in <module>
+    create_bucket_task = GCSCreateBucketOperator(
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'GCSCreateBucketOperator' is not defined. Did you mean: 'S3CreateObjectOperator'?
+[2024-12-04T23:38:27.187+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:27.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.767 seconds
+[2024-12-04T23:38:46.580+0000] {processor.py:186} INFO - Started process (PID=93222) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:46.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:38:46.598+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:46.597+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:47.376+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:47.355+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 60, in <module>
+    create_bucket_task = GCSCreateBucketOperator(
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'GCSCreateBucketOperator' is not defined. Did you mean: 'S3CreateObjectOperator'?
+[2024-12-04T23:38:47.385+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:47.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.861 seconds
+[2024-12-04T23:38:51.966+0000] {processor.py:186} INFO - Started process (PID=93229) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:51.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:38:51.981+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:51.981+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:52.087+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:52.078+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    bucket_name = GCS_BUCKET,
+                  ^^^^^^^^^^
+NameError: name 'GCS_BUCKET' is not defined
+[2024-12-04T23:38:52.090+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:52.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.169 seconds
+[2024-12-04T23:38:53.419+0000] {processor.py:186} INFO - Started process (PID=93234) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:53.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:38:53.429+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:53.429+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:53.512+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:53.505+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    bucket_name = GCS_BUCKET,
+                  ^^^^^^^^^^
+NameError: name 'GCS_BUCKET' is not defined
+[2024-12-04T23:38:53.513+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:38:53.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.127 seconds
+[2024-12-04T23:39:23.591+0000] {processor.py:186} INFO - Started process (PID=93306) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:39:23.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:39:23.595+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:39:23.594+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:39:23.698+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:39:23.689+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    bucket_name = GCS_BUCKET,
+                  ^^^^^^^^^^
+NameError: name 'GCS_BUCKET' is not defined
+[2024-12-04T23:39:23.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:39:23.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.134 seconds
+[2024-12-04T23:39:54.073+0000] {processor.py:186} INFO - Started process (PID=93378) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:39:54.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:39:54.077+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:39:54.077+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:39:54.238+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:39:54.235+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    bucket_name = GCS_BUCKET,
+                  ^^^^^^^^^^
+NameError: name 'GCS_BUCKET' is not defined
+[2024-12-04T23:39:54.241+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:39:54.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.207 seconds
+[2024-12-04T23:40:24.934+0000] {processor.py:186} INFO - Started process (PID=93445) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:40:24.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:40:24.955+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:24.954+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:40:25.065+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:25.063+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    bucket_name = GCS_BUCKET,
+                  ^^^^^^^^^^
+NameError: name 'GCS_BUCKET' is not defined
+[2024-12-04T23:40:25.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:40:25.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.191 seconds
+[2024-12-04T23:40:55.814+0000] {processor.py:186} INFO - Started process (PID=93517) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:40:55.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:40:55.830+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:55.829+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:40:56.007+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:55.999+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    bucket_name = GCS_BUCKET,
+                  ^^^^^^^^^^
+NameError: name 'GCS_BUCKET' is not defined
+[2024-12-04T23:40:56.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:40:56.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.381 seconds
+[2024-12-04T23:41:22.338+0000] {processor.py:186} INFO - Started process (PID=93586) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:41:22.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:41:22.354+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:22.352+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:41:22.457+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:22.453+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:41:22.460+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:41:22.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.187 seconds
+[2024-12-04T23:41:52.771+0000] {processor.py:186} INFO - Started process (PID=93658) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:41:52.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:41:52.778+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:52.777+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:41:52.864+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:52.863+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:41:52.865+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:41:52.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.111 seconds
+[2024-12-04T23:42:23.503+0000] {processor.py:186} INFO - Started process (PID=93728) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:42:23.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:42:23.516+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:23.515+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:42:23.610+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:23.609+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:42:23.611+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:42:23.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.160 seconds
+[2024-12-04T23:42:54.126+0000] {processor.py:186} INFO - Started process (PID=93800) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:42:54.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:42:54.145+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:54.145+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:42:54.300+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:54.297+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:42:54.304+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:42:54.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.227 seconds
+[2024-12-04T23:43:24.466+0000] {processor.py:186} INFO - Started process (PID=93866) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:43:24.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:43:24.492+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:43:24.491+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:43:25.162+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:43:25.095+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:43:25.345+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:43:25.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 1.021 seconds
+[2024-12-04T23:43:55.875+0000] {processor.py:186} INFO - Started process (PID=93937) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:43:55.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:43:55.916+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:43:55.915+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:43:56.093+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:43:56.087+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:43:56.094+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:43:56.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.297 seconds
+[2024-12-04T23:44:04.068+0000] {processor.py:186} INFO - Started process (PID=93955) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:04.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:44:04.076+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:04.076+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:04.094+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:04.093+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 16
+    GCP_PROJECT = "GCP_PROJECT = "learn-airflow-428415"
+                                                      ^
+SyntaxError: unterminated string literal (detected at line 16)
+[2024-12-04T23:44:04.096+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:04.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.079 seconds
+[2024-12-04T23:44:06.993+0000] {processor.py:186} INFO - Started process (PID=93964) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:06.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:44:07.006+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:07.005+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:07.139+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:07.137+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:44:07.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:07.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.202 seconds
+[2024-12-04T23:44:09.103+0000] {processor.py:186} INFO - Started process (PID=93965) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:09.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:44:09.112+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:09.112+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:09.119+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:09.118+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 16
+    GCP_PROJECT = "GCP_PROJECT = "learn-airflow-428415"
+                                                      ^
+SyntaxError: unterminated string literal (detected at line 16)
+[2024-12-04T23:44:09.119+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:09.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.098 seconds
+[2024-12-04T23:44:11.163+0000] {processor.py:186} INFO - Started process (PID=93967) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:11.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:44:11.172+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:11.171+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:11.282+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:11.280+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:44:11.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:11.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.186 seconds
+[2024-12-04T23:44:41.728+0000] {processor.py:186} INFO - Started process (PID=94039) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:41.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:44:41.738+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:41.738+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:41.804+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:41.802+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:44:41.804+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:41.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.129 seconds
+[2024-12-04T23:44:43.837+0000] {processor.py:186} INFO - Started process (PID=94040) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:43.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:44:43.856+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:43.855+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:44.017+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:44:44.015+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:44:44.018+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:44:44.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.258 seconds
+[2024-12-04T23:45:14.260+0000] {processor.py:186} INFO - Started process (PID=94112) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:45:14.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:45:14.487+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:45:14.486+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:45:14.901+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:45:14.892+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:45:15.175+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:45:15.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 1.123 seconds
+[2024-12-04T23:45:46.091+0000] {processor.py:186} INFO - Started process (PID=94183) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:45:46.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:45:46.114+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:45:46.113+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:45:46.320+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:45:46.314+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:45:46.321+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:45:46.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.310 seconds
+[2024-12-04T23:46:17.209+0000] {processor.py:186} INFO - Started process (PID=94254) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:46:17.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:46:17.222+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:46:17.221+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:46:17.383+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:46:17.381+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:46:17.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:46:17.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.209 seconds
+[2024-12-04T23:46:47.545+0000] {processor.py:186} INFO - Started process (PID=94326) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:46:47.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:46:47.560+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:46:47.559+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:46:47.862+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:46:47.853+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:46:47.865+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:46:48.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.515 seconds
+[2024-12-04T23:47:16.731+0000] {processor.py:186} INFO - Started process (PID=94398) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:16.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:47:16.739+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:47:16.738+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:16.931+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:47:16.929+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:47:16.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:16.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.251 seconds
+[2024-12-04T23:47:20.925+0000] {processor.py:186} INFO - Started process (PID=94410) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:20.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:47:20.943+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:47:20.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:21.029+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:47:21.027+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:47:21.029+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:21.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.168 seconds
+[2024-12-04T23:47:51.228+0000] {processor.py:186} INFO - Started process (PID=94482) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:51.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:47:51.231+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:47:51.231+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:51.284+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:47:51.283+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:47:51.285+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:47:51.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.076 seconds
+[2024-12-04T23:48:21.975+0000] {processor.py:186} INFO - Started process (PID=94553) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:48:21.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:48:21.982+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:48:21.982+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:48:22.336+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:48:22.327+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:48:22.415+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:48:22.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.523 seconds
+[2024-12-04T23:48:53.388+0000] {processor.py:186} INFO - Started process (PID=94625) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:48:53.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:48:53.395+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:48:53.394+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:48:53.602+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:48:53.596+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:48:53.744+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:48:53.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.413 seconds
+[2024-12-04T23:49:24.503+0000] {processor.py:186} INFO - Started process (PID=94697) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:49:24.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:49:24.510+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:49:24.510+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:49:24.907+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:49:24.901+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:49:24.909+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:49:24.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.461 seconds
+[2024-12-04T23:49:55.321+0000] {processor.py:186} INFO - Started process (PID=94769) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:49:55.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:49:55.327+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:49:55.326+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:49:55.624+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:49:55.614+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:49:55.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:49:55.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.422 seconds
+[2024-12-04T23:50:26.753+0000] {processor.py:186} INFO - Started process (PID=94841) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:50:26.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:50:26.767+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:50:26.766+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:50:27.029+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:50:27.027+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:50:27.030+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:50:27.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.316 seconds
+[2024-12-04T23:50:57.910+0000] {processor.py:186} INFO - Started process (PID=94913) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:50:57.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:50:57.924+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:50:57.923+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:50:58.110+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:50:58.104+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:50:58.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:50:58.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.276 seconds
+[2024-12-04T23:51:28.908+0000] {processor.py:186} INFO - Started process (PID=94985) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:51:28.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:51:28.929+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:28.928+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:51:29.282+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:29.272+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:51:29.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:51:29.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.517 seconds
+[2024-12-04T23:51:59.510+0000] {processor.py:186} INFO - Started process (PID=95057) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:51:59.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:51:59.521+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:59.521+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:51:59.657+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:59.653+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:51:59.754+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:52:00.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.580 seconds
+[2024-12-04T23:52:30.829+0000] {processor.py:186} INFO - Started process (PID=95130) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:52:30.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:52:30.851+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:52:30.849+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:52:31.004+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:52:30.997+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:52:31.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:52:31.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.289 seconds
+[2024-12-04T23:53:03.930+0000] {processor.py:186} INFO - Started process (PID=95200) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:53:03.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:53:03.940+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:03.940+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:53:04.385+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:04.382+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:53:04.386+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:53:04.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.513 seconds
+[2024-12-04T23:53:35.070+0000] {processor.py:186} INFO - Started process (PID=95271) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:53:35.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:53:35.083+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:35.083+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:53:35.310+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:35.307+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:53:35.312+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:53:35.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.332 seconds
+[2024-12-04T23:54:05.551+0000] {processor.py:186} INFO - Started process (PID=95343) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:54:05.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:54:05.587+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:54:05.586+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:54:05.800+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:54:05.793+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:54:05.802+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:54:05.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.331 seconds
+[2024-12-04T23:54:36.833+0000] {processor.py:186} INFO - Started process (PID=95415) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:54:36.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:54:36.840+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:54:36.840+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:54:36.906+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:54:36.905+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:54:36.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:54:36.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.105 seconds
+[2024-12-04T23:55:08.463+0000] {processor.py:186} INFO - Started process (PID=95487) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:55:08.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:55:08.475+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:55:08.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:55:09.013+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:55:09.005+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:55:09.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:55:09.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.584 seconds
+[2024-12-04T23:55:39.209+0000] {processor.py:186} INFO - Started process (PID=95559) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:55:39.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:55:39.212+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:55:39.212+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:55:40.405+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:55:40.394+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:55:40.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:55:40.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 1.232 seconds
+[2024-12-04T23:56:10.479+0000] {processor.py:186} INFO - Started process (PID=95631) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:56:10.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:56:10.481+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:10.481+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:56:10.559+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:10.558+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:56:10.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:56:10.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.100 seconds
+[2024-12-04T23:56:41.533+0000] {processor.py:186} INFO - Started process (PID=95701) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:56:41.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:56:41.550+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:41.549+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:56:41.679+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:41.670+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:56:41.680+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:56:41.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.197 seconds
+[2024-12-04T23:57:12.338+0000] {processor.py:186} INFO - Started process (PID=95773) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:57:12.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:57:12.340+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:57:12.340+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:57:13.277+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:57:13.272+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:57:13.278+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:57:13.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.994 seconds
+[2024-12-04T23:57:43.683+0000] {processor.py:186} INFO - Started process (PID=95845) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:57:43.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:57:43.699+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:57:43.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:57:43.799+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:57:43.796+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:57:43.800+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:57:43.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.151 seconds
+[2024-12-04T23:58:15.530+0000] {processor.py:186} INFO - Started process (PID=95917) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:58:15.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:58:15.536+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:58:15.536+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:58:16.011+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:58:15.983+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:58:16.015+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:58:16.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.588 seconds
+[2024-12-04T23:58:44.508+0000] {processor.py:186} INFO - Started process (PID=95982) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:58:44.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:58:44.511+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:58:44.511+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:58:44.604+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:58:44.601+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 74, in <module>
+    dag=dag,
+        ^^^
+NameError: name 'dag' is not defined
+[2024-12-04T23:58:44.605+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:58:44.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.122 seconds
+[2024-12-04T23:59:11.861+0000] {processor.py:186} INFO - Started process (PID=96043) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:11.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:59:11.879+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:11.878+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:12.046+0000] {processor.py:925} INFO - DAG(s) 'spotify_etl_dag' retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:12.169+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:12.168+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-12-04T23:59:12.187+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:12.187+0000] {dag.py:4156} INFO - Setting next_dagrun for spotify_etl_dag to 2024-12-04 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T23:59:12.245+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.406 seconds
+[2024-12-04T23:59:19.118+0000] {processor.py:186} INFO - Started process (PID=96063) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:19.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:59:19.130+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.130+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:19.232+0000] {processor.py:925} INFO - DAG(s) 'spotify_etl_dag_gcp' retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:19.336+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.335+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.343+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.343+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.361+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.361+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.367+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.367+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.371+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.371+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.374+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.373+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.379+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.379+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:spotify_etl_dag_gcp
+[2024-12-04T23:59:19.379+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.379+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-12-04T23:59:19.387+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.387+0000] {dag.py:3252} INFO - Creating ORM DAG for spotify_etl_dag_gcp
+[2024-12-04T23:59:19.392+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:19.392+0000] {dag.py:4156} INFO - Setting next_dagrun for spotify_etl_dag_gcp to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-04T23:59:19.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.296 seconds
+[2024-12-04T23:59:31.950+0000] {processor.py:186} INFO - Started process (PID=96097) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:31.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:59:31.955+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:31.955+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:32.023+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:32.019+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/spotify_airflow_gcp.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_airflow_gcp.py", line 62, in <module>
+    default_args=default_args,
+                 ^^^^^^^^^^^^
+NameError: name 'default_args' is not defined
+[2024-12-04T23:59:32.025+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:32.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.096 seconds
+[2024-12-04T23:59:37.920+0000] {processor.py:186} INFO - Started process (PID=96107) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:37.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:59:37.931+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:37.930+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:38.193+0000] {processor.py:925} INFO - DAG(s) 'spotify_etl_dag_gcp' retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:38.241+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:38.240+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-12-04T23:59:38.275+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:38.275+0000] {dag.py:4156} INFO - Setting next_dagrun for spotify_etl_dag_gcp to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-04T23:59:38.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.442 seconds
+[2024-12-04T23:59:38.730+0000] {processor.py:186} INFO - Started process (PID=96111) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:38.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:59:38.735+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:38.735+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:38.848+0000] {processor.py:925} INFO - DAG(s) 'spotify_etl_dag_gcp' retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:38.867+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:38.866+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-12-04T23:59:38.889+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:38.888+0000] {dag.py:4156} INFO - Setting next_dagrun for spotify_etl_dag_gcp to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-04T23:59:38.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.186 seconds
+[2024-12-04T23:59:43.425+0000] {processor.py:186} INFO - Started process (PID=96121) to work on /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:43.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spotify_airflow_gcp.py for tasks to queue
+[2024-12-04T23:59:43.435+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:43.434+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:43.579+0000] {processor.py:925} INFO - DAG(s) 'spotify_etl_dag_gcp' retrieved from /opt/airflow/dags/spotify_airflow_gcp.py
+[2024-12-04T23:59:43.633+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:43.632+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-12-04T23:59:43.672+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:59:43.672+0000] {dag.py:4156} INFO - Setting next_dagrun for spotify_etl_dag_gcp to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-04T23:59:43.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spotify_airflow_gcp.py took 0.321 seconds

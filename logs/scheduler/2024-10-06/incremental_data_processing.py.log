@@ -1,0 +1,273 @@
+[2024-10-06T00:50:46.475+0000] {processor.py:186} INFO - Started process (PID=24077) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T00:50:46.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T00:50:46.479+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.479+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T00:50:46.485+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T00:50:46.497+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.497+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T00:50:46.510+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:50:46.510+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T00:50:46.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.049 seconds
+[2024-10-06T00:51:17.236+0000] {processor.py:186} INFO - Started process (PID=24147) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T00:51:17.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T00:51:17.238+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.238+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T00:51:17.249+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T00:51:17.258+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.258+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T00:51:17.272+0000] {logging_mixin.py:190} INFO - [2024-10-06T00:51:17.272+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T00:51:17.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.054 seconds
+[2024-10-06T01:51:41.354+0000] {processor.py:186} INFO - Started process (PID=24216) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T01:51:41.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T01:51:41.356+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.355+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T01:51:41.360+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T01:51:41.369+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.369+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T01:51:41.380+0000] {logging_mixin.py:190} INFO - [2024-10-06T01:51:41.379+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T01:51:41.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.034 seconds
+[2024-10-06T02:42:31.347+0000] {processor.py:186} INFO - Started process (PID=24285) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T02:42:31.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T02:42:31.349+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.348+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T02:42:31.358+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T02:42:31.371+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.371+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T02:42:31.385+0000] {logging_mixin.py:190} INFO - [2024-10-06T02:42:31.385+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T02:42:31.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.054 seconds
+[2024-10-06T03:10:35.156+0000] {processor.py:186} INFO - Started process (PID=24355) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T03:10:35.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T03:10:35.159+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:35.159+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T03:10:35.171+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T03:10:35.191+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:35.191+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T03:10:35.219+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:10:35.219+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T03:10:35.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.095 seconds
+[2024-10-06T03:53:52.030+0000] {processor.py:186} INFO - Started process (PID=24425) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T03:53:52.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T03:53:52.033+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:52.032+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T03:53:52.043+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T03:53:52.065+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:52.065+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T03:53:52.080+0000] {logging_mixin.py:190} INFO - [2024-10-06T03:53:52.080+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T03:53:52.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.069 seconds
+[2024-10-06T04:44:14.946+0000] {processor.py:186} INFO - Started process (PID=24495) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T04:44:14.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T04:44:14.948+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.948+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T04:44:14.953+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T04:44:14.964+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.964+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T04:44:14.974+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:44:14.974+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T04:44:14.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.040 seconds
+[2024-10-06T05:45:09.888+0000] {processor.py:186} INFO - Started process (PID=24565) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T05:45:09.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T05:45:09.890+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.890+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T05:45:09.899+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T05:45:09.912+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.912+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T05:45:09.931+0000] {logging_mixin.py:190} INFO - [2024-10-06T05:45:09.931+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T05:45:09.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.062 seconds
+[2024-10-06T06:27:10.510+0000] {processor.py:186} INFO - Started process (PID=24635) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T06:27:10.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T06:27:10.514+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.513+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T06:27:10.525+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T06:27:10.537+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.537+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T06:27:10.553+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:27:10.553+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T06:27:10.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.065 seconds
+[2024-10-06T06:56:39.174+0000] {processor.py:186} INFO - Started process (PID=24705) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T06:56:39.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T06:56:39.177+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:39.177+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T06:56:39.183+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T06:56:39.198+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:39.198+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T06:56:39.212+0000] {logging_mixin.py:190} INFO - [2024-10-06T06:56:39.212+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T06:56:39.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.058 seconds
+[2024-10-06T07:29:02.559+0000] {processor.py:186} INFO - Started process (PID=24775) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T07:29:02.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T07:29:02.570+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.568+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T07:29:02.577+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T07:29:02.590+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.590+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T07:29:02.601+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:29:02.601+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T07:29:02.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.059 seconds
+[2024-10-06T07:57:56.993+0000] {processor.py:186} INFO - Started process (PID=24845) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T07:57:56.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T07:57:56.995+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:56.995+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T07:57:57.004+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T07:57:57.015+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:57.015+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T07:57:57.028+0000] {logging_mixin.py:190} INFO - [2024-10-06T07:57:57.028+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T07:57:57.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.048 seconds
+[2024-10-06T08:02:58.883+0000] {processor.py:186} INFO - Started process (PID=24915) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T08:02:58.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T08:02:58.887+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.886+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T08:02:58.892+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T08:02:58.906+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.906+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T08:02:58.924+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:02:58.924+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T08:02:58.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.053 seconds
+[2024-10-06T08:03:29.711+0000] {processor.py:186} INFO - Started process (PID=24985) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T08:03:29.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T08:03:29.715+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.715+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T08:03:29.727+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T08:03:29.743+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.743+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T08:03:29.756+0000] {logging_mixin.py:190} INFO - [2024-10-06T08:03:29.756+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T08:03:29.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.061 seconds
+[2024-10-06T09:43:47.851+0000] {processor.py:186} INFO - Started process (PID=25055) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T09:43:47.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T09:43:47.856+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.855+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T09:43:47.865+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T09:43:47.886+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.886+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T09:43:47.901+0000] {logging_mixin.py:190} INFO - [2024-10-06T09:43:47.901+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T09:43:47.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.080 seconds
+[2024-10-06T10:16:41.326+0000] {processor.py:186} INFO - Started process (PID=25124) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T10:16:41.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T10:16:41.327+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.327+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T10:16:41.335+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T10:16:41.350+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.349+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T10:16:41.361+0000] {logging_mixin.py:190} INFO - [2024-10-06T10:16:41.361+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T10:16:41.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.048 seconds
+[2024-10-06T11:20:54.407+0000] {processor.py:186} INFO - Started process (PID=25194) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T11:20:54.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T11:20:54.410+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T11:20:54.415+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T11:20:54.425+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.425+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T11:20:54.437+0000] {logging_mixin.py:190} INFO - [2024-10-06T11:20:54.436+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T11:20:54.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.048 seconds
+[2024-10-06T13:00:03.853+0000] {processor.py:186} INFO - Started process (PID=25264) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:00:03.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T13:00:03.858+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:00:03.865+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:00:03.888+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.888+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:00:03.904+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:00:03.904+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T13:00:03.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.065 seconds
+[2024-10-06T13:48:15.306+0000] {processor.py:186} INFO - Started process (PID=25334) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:48:15.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T13:48:15.310+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.310+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:48:15.315+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:48:15.327+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.327+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:48:15.339+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:48:15.339+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T13:48:15.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.047 seconds
+[2024-10-06T13:55:49.502+0000] {processor.py:186} INFO - Started process (PID=25404) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:55:49.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T13:55:49.504+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.504+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:55:49.512+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T13:55:49.534+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.533+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T13:55:49.553+0000] {logging_mixin.py:190} INFO - [2024-10-06T13:55:49.553+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T13:55:49.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.069 seconds
+[2024-10-06T14:56:48.451+0000] {processor.py:186} INFO - Started process (PID=25474) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T14:56:48.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T14:56:48.454+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.454+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T14:56:48.464+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T14:56:48.478+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.478+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T14:56:48.491+0000] {logging_mixin.py:190} INFO - [2024-10-06T14:56:48.491+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T14:56:48.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.057 seconds
+[2024-10-06T15:41:27.296+0000] {processor.py:186} INFO - Started process (PID=25544) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T15:41:27.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T15:41:27.303+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.303+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T15:41:27.310+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T15:41:27.328+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.327+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T15:41:27.342+0000] {logging_mixin.py:190} INFO - [2024-10-06T15:41:27.341+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T15:41:27.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.068 seconds
+[2024-10-06T16:15:53.874+0000] {processor.py:186} INFO - Started process (PID=25614) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:15:53.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T16:15:53.878+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.877+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:15:53.888+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:15:53.908+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.908+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:15:53.921+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:15:53.921+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T16:15:53.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.067 seconds
+[2024-10-06T16:58:34.685+0000] {processor.py:186} INFO - Started process (PID=25684) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:58:34.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T16:58:34.688+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.688+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:58:34.693+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:58:34.703+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.703+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:58:34.718+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:58:34.718+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T16:58:34.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.045 seconds
+[2024-10-06T16:59:05.644+0000] {processor.py:186} INFO - Started process (PID=25754) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:59:05.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T16:59:05.645+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.645+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:59:05.650+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T16:59:05.658+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.658+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T16:59:05.667+0000] {logging_mixin.py:190} INFO - [2024-10-06T16:59:05.667+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T16:59:05.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.033 seconds
+[2024-10-06T17:59:31.831+0000] {processor.py:186} INFO - Started process (PID=25823) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T17:59:31.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T17:59:31.834+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.834+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T17:59:31.839+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T17:59:31.849+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.849+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T17:59:31.864+0000] {logging_mixin.py:190} INFO - [2024-10-06T17:59:31.864+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T17:59:31.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.052 seconds
+[2024-10-06T18:16:59.927+0000] {processor.py:186} INFO - Started process (PID=25893) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T18:16:59.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T18:16:59.930+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T18:16:59.940+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T18:16:59.952+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.952+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T18:16:59.963+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:16:59.963+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T18:16:59.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.048 seconds
+[2024-10-06T18:49:49.027+0000] {processor.py:186} INFO - Started process (PID=25963) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T18:49:49.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T18:49:49.028+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:49.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T18:49:49.039+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T18:49:49.050+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:49.050+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T18:49:49.062+0000] {logging_mixin.py:190} INFO - [2024-10-06T18:49:49.062+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T18:49:49.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.058 seconds
+[2024-10-06T19:00:32.783+0000] {processor.py:186} INFO - Started process (PID=26033) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T19:00:32.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T19:00:32.784+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.784+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T19:00:32.791+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T19:00:32.803+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.803+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T19:00:32.814+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:00:32.814+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T19:00:32.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.050 seconds
+[2024-10-06T19:16:44.493+0000] {processor.py:186} INFO - Started process (PID=26103) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T19:16:44.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T19:16:44.497+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.497+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T19:16:44.503+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T19:16:44.515+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.514+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T19:16:44.526+0000] {logging_mixin.py:190} INFO - [2024-10-06T19:16:44.526+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T19:16:44.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.050 seconds
+[2024-10-06T20:01:49.755+0000] {processor.py:186} INFO - Started process (PID=26173) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:01:49.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T20:01:49.757+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.757+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:01:49.770+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:01:49.801+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.800+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:01:49.822+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:01:49.822+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T20:01:49.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.089 seconds
+[2024-10-06T20:17:58.916+0000] {processor.py:186} INFO - Started process (PID=26243) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:17:58.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T20:17:58.918+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:17:58.929+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:17:58.940+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.940+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:17:58.963+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:17:58.962+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T20:17:58.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.065 seconds
+[2024-10-06T20:51:48.510+0000] {processor.py:186} INFO - Started process (PID=26312) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:51:48.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T20:51:48.512+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.512+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:51:48.521+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:51:48.538+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.538+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:51:48.554+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:51:48.554+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T20:51:48.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.069 seconds
+[2024-10-06T20:52:19.467+0000] {processor.py:186} INFO - Started process (PID=26383) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:52:19.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T20:52:19.470+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:19.470+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:52:19.483+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T20:52:19.528+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:19.527+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T20:52:19.573+0000] {logging_mixin.py:190} INFO - [2024-10-06T20:52:19.573+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T20:52:19.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.158 seconds
+[2024-10-06T21:19:19.395+0000] {processor.py:186} INFO - Started process (PID=26453) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T21:19:19.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T21:19:19.399+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:19.399+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T21:19:19.416+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T21:19:19.441+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:19.441+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T21:19:19.470+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:19:19.470+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T21:19:19.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.100 seconds
+[2024-10-06T21:52:07.483+0000] {processor.py:186} INFO - Started process (PID=26523) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T21:52:07.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T21:52:07.485+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T21:52:07.498+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T21:52:07.511+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.511+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T21:52:07.524+0000] {logging_mixin.py:190} INFO - [2024-10-06T21:52:07.524+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T21:52:07.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.055 seconds
+[2024-10-06T22:53:02.524+0000] {processor.py:186} INFO - Started process (PID=26593) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T22:53:02.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T22:53:02.525+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.525+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T22:53:02.529+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T22:53:02.539+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.539+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T22:53:02.547+0000] {logging_mixin.py:190} INFO - [2024-10-06T22:53:02.547+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T22:53:02.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.034 seconds
+[2024-10-06T23:21:10.323+0000] {processor.py:186} INFO - Started process (PID=26663) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T23:21:10.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T23:21:10.326+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:10.325+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T23:21:10.337+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T23:21:10.357+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:10.357+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T23:21:10.374+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:21:10.374+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T23:21:10.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.078 seconds
+[2024-10-06T23:39:11.500+0000] {processor.py:186} INFO - Started process (PID=26733) to work on /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T23:39:11.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/incremental_data_processing.py for tasks to queue
+[2024-10-06T23:39:11.502+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.502+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T23:39:11.509+0000] {processor.py:925} INFO - DAG(s) 'increamental_data_processing' retrieved from /opt/airflow/dags/incremental_data_processing.py
+[2024-10-06T23:39:11.527+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.527+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-06T23:39:11.544+0000] {logging_mixin.py:190} INFO - [2024-10-06T23:39:11.544+0000] {dag.py:4156} INFO - Setting next_dagrun for increamental_data_processing to 2024-09-25 00:00:00+00:00, run_after=2024-09-26 00:00:00+00:00
+[2024-10-06T23:39:11.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/incremental_data_processing.py took 0.056 seconds

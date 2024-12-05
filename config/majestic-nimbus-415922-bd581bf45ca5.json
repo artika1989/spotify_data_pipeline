@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "majestic-nimbus-415922",
+  "private_key_id": "bd581bf45ca59cc581b3a8c399b99cad13444c09",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLkAwfjgvIo5bk\nzn78kuuNVudrQMZSdR8tcal5rgoZ65EObCzq3z0UHV3aCTBtMO0XCS3Vf2iGSfos\nuwSJYV3MBpMUbUUp+kHLM+bTA5LMcKH7En9inRMyqB7H3jPLjsIyH2lL2iNGhf5O\nKg+k3MeDq1S+lDLRre7Mr1yBddBtPVlK8nXpcG4PyFBToEA3J7BhzXHUxz9O29SF\nqJYZsLAyKCcHaBUctZXyAWUQjkfztTXgg1rfD6+JXBGb0TuRFfW9pRq/AxhAGBbL\nYq0O4cTNiMPZ421cwSQHtArLatnYyy6mQjyzMd5g2m3dpIxN79zjSzUmu4fwhfFE\npmNM0jWHAgMBAAECggEAMzze0FKAxM/oe08+x3Rzte/Z8DUttjOk1Vt2vRoBkOSq\nbmbsJ3JpfVam+Oq3NcTK6LF2x/Z56NNWFUw9qBbJ9UDyZIHcluRXCz7VKugLW0o+\ne2P8jGXdHzMSDFzxzJryZothhaYymt2/VQ1hQq4PyiSmABJteDm/keXR8wQkoloL\n1rVNlBETiDJJ0e0N3cCNB2MigAq4mAF4nzQWgO6Q2n1mfTsOSZNyu0eCgj9nXZDl\n4X1LY3WCvADKENTe+QVP9A2oG0faM7IrJfM8g8phfLjTbREZQMHyNNz6ULEGtP3Y\nkrPAGkEXVoC5dfbNQFkfGwdT/Ry5KtaLPYm7PAKLgQKBgQDrRTpgdQAPmT7WpCB8\np3J4S5WHJTqlzV5sKj5zzRgoUwdOqK/PvXQRQamkrqVxRDNE2c0Ivg1kCay4LEYK\nsFmN2kHaPqkDm1tFYIWslcsKYXiQo5IYLl3JHw3PFgE6/rD9bWMWeTUz9JpOyl+Q\n77yDMiSaGD+mwyPbj55gvojoCwKBgQDdf54xna2U8hn0xzq9L6OrrDDPkkrp6d57\n9mgPGhyZm92KPO06n4oUec455jmi1lzkE9Ks/vpAzFsUoXgTHUFbU+fnt/jow1XK\nVsadya4cZDSyv48P4D9OI8IOTjDkiBd/rWH2FjZ+2h+YJKWFj8MgRQoQ7nEa6hj9\nT2X7BINJ9QKBgHN0UJZ/NB1zhZvNhUfG4GzaIrHkeihdZOXNwUIQtrcrL53ROB3J\nCglh4L85GWVBI6u4+l487dNW0BS9XU3nhrsPDVvtfgGQHrUoDdFI3Q/mD0Vjj9Eg\nB9Qn0h363XW3AOIM6SBhMNOjSIo707QLgcYcOEwKdEoA3zri+sTdG9BLAoGAHuap\n9DQSPmBUPLD6wd/+jnm0SZEYQG/vKQ4kUE8NRGTZUGrVkcMmKVsg6TT0P4J2bR9S\n2e2sjhO0dTldnhULxCj9hndFE3wE4PigNu0nDDDypSlSVR2s10Ln1MUVzxwpYxeW\nPhW1PpdBpyEdsndu+naHQ/tv7hhQqi5EhPOJOW0CgYEAsCxDTvfDokmu4/rRhH8t\neVEW9QN0Rqk1eG56wHfxVRvN8h6q+sOFqZf3OtZLBCpUh6N1x+NEsqrrueDZR03G\nfHpEorP6PDkjOqmiE6rX13qzGi70fOwZDcAv2DiZvr5Bx7R0vMDuqs4zru8xS61p\nVeXXV2cwNCIVKnKNHKxhnsA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account-for-composer-a@majestic-nimbus-415922.iam.gserviceaccount.com",
+  "client_id": "108677702588184351699",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account-for-composer-a%40majestic-nimbus-415922.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
